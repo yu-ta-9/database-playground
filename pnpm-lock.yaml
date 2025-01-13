@@ -35,7 +35,7 @@ importers:
         version: 10.2.3(chokidar@3.6.0)(typescript@5.6.3)
       '@nestjs/swagger':
         specifier: ^8.0.7
-        version: 8.0.7(@nestjs/common@10.4.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.4.8)(reflect-metadata@0.2.2)
+        version: 8.1.1(@nestjs/common@10.4.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.4.8)(reflect-metadata@0.2.2)
       '@nestjs/testing':
         specifier: ^10.0.0
         version: 10.4.8(@nestjs/common@10.4.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.4.8)(@nestjs/platform-express@10.4.8)
@@ -502,8 +502,8 @@ packages:
     peerDependencies:
       typescript: '>=4.8.2'
 
-  '@nestjs/swagger@8.0.7':
-    resolution: {integrity: sha512-zaTMCEZ/CxX7QYF110nTqJsn7eCXp4VI9kv7+AdUcIlBmhhgJpggBw2Mx2p6xVjyz1EoWXGfxxWKnxEyaQwFlg==}
+  '@nestjs/swagger@8.1.1':
+    resolution: {integrity: sha512-5Mda7H1DKnhKtlsb0C7PYshcvILv8UFyUotHzxmWh0G65Z21R3LZH/J8wmpnlzL4bmXIfr42YwbEwRxgzpJ5sQ==}
     peerDependencies:
       '@fastify/static': ^6.0.0 || ^7.0.0
       '@nestjs/common': ^9.0.0 || ^10.0.0
@@ -3049,7 +3049,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@nestjs/swagger@8.0.7(@nestjs/common@10.4.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.4.8)(reflect-metadata@0.2.2)':
+  '@nestjs/swagger@8.1.1(@nestjs/common@10.4.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.4.8)(reflect-metadata@0.2.2)':
     dependencies:
       '@microsoft/tsdoc': 0.15.0
       '@nestjs/common': 10.4.8(reflect-metadata@0.2.2)(rxjs@7.8.1)
